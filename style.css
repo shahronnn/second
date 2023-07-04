@@ -1,0 +1,295 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main{
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: auto;
+}
+main p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #3035C3;
+    margin-bottom: 30px;
+}
+main h1{
+    font-size: 56px;
+    font-weight: 800;
+    color: #e6514a;
+}
+.button1{
+    padding: 10px 20px 10px 20px;
+    background-color: #e6514a;
+    color: white;
+    border-radius: 20px;
+    width: 250px;
+    text-align: center;
+    margin-top: 50px;
+}
+.menu{
+    display: none;
+}
+main .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.page1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page1 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: dimgray;
+}
+.page2 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: dimgray;
+}
+.page2 h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.containers{
+    display: flex;
+    justify-content: center;
+}
+.c{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    max-width: 1200px;
+    padding-top: 20px;
+}
+.bot{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.bot .right{
+    display: flex;
+}
+.bot .right ul{
+    font-size: 14px;
+    font-weight: 700;
+    color: #23283b;
+}
+.right .button{
+    padding: 10px 20px 10px 20px;
+    background-color: #e6514a;
+    color: white;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+.bot ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.bot li{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.img1{
+    width: 190px;
+    margin: auto;
+    margin-top: 20px;
+}
+.button2{
+    width: 150px;
+    padding: 10px 20px 10px 20px;
+    background-color: #e6514a;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: auto;
+}
+.page3{
+    background-color: #3035C3;
+    border-radius: 20px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    margin-top: 100px;
+}
+.page3 h1{
+    font-size: 32px;
+    font-weight: 800;
+}
+.page3 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.button3{
+    padding: 10px 20px 10px 20px;
+    background-color: #e6514a;
+    text-align: center;
+    border-radius: 20px;
+    width: 300px;
+}
+.page3 img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.img111{
+    display: none;
+}
+.accord{
+    display: none;
+}
+.Benefits{
+    display: block;
+}
+
+@media (max-width: 375px) {
+    .nav{
+        width: 90%;
+        margin: auto;
+        padding: 10px;
+    }
+    .menu{
+        display: block;
+        max-width: 375px;
+    }
+    nav .top{
+        display: none;
+    }
+    main img{
+        display: none;
+    }
+    main h1{
+        font-size: 32px;
+    }
+    .bot .button{
+        display: none;
+    }
+    nav .bot .right ul{
+        display: none;
+    }
+    .main{
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+    }
+    .page1 img{
+        width: 90%;
+        margin: auto;
+    }
+    .containers{
+        flex-direction: column;
+    }
+    .page3{
+        width: 90%;
+        margin: auto;
+        flex-direction: column;
+    }
+    .page3 img{
+        width: 90%;
+        margin: auto;
+    }
+    .page3 div h1{
+        width: 90%;
+        margin: auto;
+    }
+    .dial{
+        width: 90%;
+        margin: auto;
+    }
+    .dial h1{
+        font-size: 24px;
+        width: 90%;
+        margin: auto;
+    }
+    .dial p{
+        width: 90%;
+    }
+    .partners{
+        display: none;
+    }
+    .img111last{
+        display: none;
+    }
+    .img111{
+        display: block;
+    }
+    .tab{
+        display: none;
+    }
+    .prep{
+        flex-direction: column;
+    }
+    .accord{
+        display: block;
+        margin: auto;
+    }
+    .Benefits{
+        display: none;
+    }
+    .button3{
+        padding: 10px 0px 10px 0px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .c{
+        width: 90%;
+        margin: 10px;
+        margin: auto;
+    }
+    .left p{
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+    }
+    .left h1{
+        text-align: center;
+    }
+    .button1{
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .page1 h1{
+        padding: 10px;
+        text-align: center;
+    }
+    .page3 img{
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+}
